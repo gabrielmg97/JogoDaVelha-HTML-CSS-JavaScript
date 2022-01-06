@@ -1,6 +1,38 @@
 body {
     text-align: center;
-    background-color: rgba(47, 47, 128, 0.808);
+    background-image: url('../imagens/fundo-jogoDaVelha.PNG');
+            background-size: 100px 100px;
+            background-repeat: repeat;
+    
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: #eee;
+    padding: 5px;
+    min-width: 300px;
+    max-width: 438px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+div.jogo{
+    background-color: rgba(0, 0, 0, 0.822);
+    min-width: 300px;
+    max-width: 438px;
+    margin: auto;   /* Centralizar o main*/
+    border-radius: 10px;
+}
+
+div.fundobaixo{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: #eee;
+    min-width: 300px;
+    max-width: 438px;
+    margin: auto;   /* Centralizar o main*/
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .quadrado {
